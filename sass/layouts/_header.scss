@@ -1,0 +1,29 @@
+.header{
+    height: 99vh;
+    position: relative;
+    background-image: linear-gradient(to right top ,rgba($color-primary-light ,0.8),rgba($color-primary-dark,0.8)), url(./img/hero.png);
+    background-position: top; 
+    background-size: cover;
+
+    &__logo-box{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    &__logo{
+        // width: 60rem;
+        height: 15rem;
+    }
+
+    &__services{
+        position: absolute;
+        top: 60%;
+        left:50%;
+        display: inline-block;
+        // transform: translate(-50%,-50%);
+        text-align: right;
+    }
+
+}

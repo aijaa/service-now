@@ -1,0 +1,65 @@
+
+.heading-secondary{
+    color: $color-primary-dark;
+    width: auto;
+    text-transform: uppercase;
+    font-family: "heading-light-italic";
+    // font-style: 'italic';
+    font-weight: 200;
+    background: rgba($color-white,0.8);
+    font-size: 3.2rem;
+    padding: .5rem 1rem;
+    display: inline-block;
+    transition: all 0.4s ease-in-out;
+    &:hover{
+        // display: ;
+        width: 34rem;
+        transform: scale(1.15)  ;
+                transition: all 0.4s ease-in-out;
+    }
+    &:not(:last-child){
+        margin-bottom: 2rem;
+    }
+    [class^="heading-secondary--"] {
+    
+        width: auto;
+        // &:not(:last-child) {
+        //     margin-right: $gutter-horizontal;
+        // }
+    }
+
+    &__cross{
+        width: 4rem;
+        padding-left: 2rem;
+        padding-top: 1rem;
+        &:hover{
+            display: none;
+            transition: all 0.4s;
+        }
+    }
+}
+
+
+
+.heading-teritiary{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.paragragh{
+    font-size: 1.6rem;
+
+    &:not(:last-child){
+        margin-bottom: 3rem;
+    }
+}
+
+.heading-four{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    transition: all .4s;
+}
